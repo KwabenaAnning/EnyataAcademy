@@ -1,0 +1,21 @@
+body{
+    box-sizing: content-box;
+    padding: 0px;
+    margin: px
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black;
+   padding:  10px 500px 10px 10px;
+   gap: 10px;
+   border-radius: 20px;
+   margin: 20px 500px 20px 10px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}

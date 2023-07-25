@@ -1,0 +1,18 @@
+how many byts makes a gigabyte = 1.0000E+9 bits
+
+DOM means Document Object Module which helps to build documents, navigate their structure and add modify and delete elements. Web browseres use DOm to display web specifications. 
+the DOm can but used by other progrsmming languages aside python becuase it is like a mediator to the web browser. Meaning whatever happens at at the coding side passes through the DOm to diagnose it and feeds  it to the webbrowser.
+The DOM sees everything as nodes. Meaning the html and javascript is seen as a node .
+
+ A promise is a special type of object in javascript that represents the eventual completion or failure of an asynchronous operation and its resulting value .
+ a promise can either be rejected or resolved but before it is either rejected or resolved it gives you a promise like say " oh wait let me check if i i can fix your stuff" this is a promise. To resolve it will come back with a beaming smile saying "hi, i have fixed your stuff. happy now?"
+ or reject which saysn " hmmm, sorry dude i could not fix it". Mostly, the reject throws an error or you code an error message in the reject part. to add to this, to resolve, you have ".then" and to reject, it should be a ".catch"
+
+
+Object-Oriented Programming (OOP) is a programming paradigm in computer science that relies on the concept of classes and objects.  an object is "an entity that exists in the real world", and oriented means "interested in a particular kind of thing or entity".
+i would say OOP uses objects to represent natural entities.properties of an object are data and the behaviour of an object and methods.OOPs paradigm is very popular as compared to the function paradigm.this paradigm creates a blueprint or let us say a base template for creation of numerous objects with similarities.
+
+A callback is a function that is put into another function and called back from that function to complete an action. when you open a parenthesis when setting a timeout it is no longer a callback eg.
+setTimeout (firstAction(secondAction),5000) eg of a callback is setTimeout(firstAction,5000) and setTimeout(() => opening(superOpen),5000)
+
+
