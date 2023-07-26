@@ -1,22 +1,35 @@
 const arrayNumbers = [1,9,2,4,6,3];
 
-function kofiYesu1(a,b){return a - b};
-arrayNumbers.sort(kofiYesu1);
+function ascending(arrays){
+    arrayNumbers.sort(function(a,b)
+    { return a - b});
+        return arrays;
+    };
+const ascending = ascending(arrayNumbers);
+console.log("Ascending order:", ascending);
 
-arrayNumbers.sort(function kofiYesu(a,b){return b - a});
 
 
-// for (var index=1; index <= 15; index++)
-// {
-//     if (index % 15 == 0)
-//         console.log("FizzBuzz");
-//     else if (index % 3 == 0)
-//         console.log("Fizz");
-//     else if (index % 5 == 0)
-//         console.log("Buzz");
-//     else
-//         console.log(index);
-// }
+function descending(arrays){
+arrayNumbers.sort(function arrayNumbers(a,b)
+    {return b - a}); 
+    return arrays;
+};
+const descending = descending(arrayNumbers);
+console.log("Descending order:", descending);
+
+
+for (var index=1; index <= 15; index++)
+{
+    if (index % 15 == 0)
+        console.log("FizzBuzz");
+    else if (index % 3 == 0)
+        console.log("Fizz");
+    else if (index % 5 == 0)
+        console.log("Buzz");
+    else
+        console.log(index);
+}
 
  
 //  let arrayNumbers = [1,9,2,4,6,3];

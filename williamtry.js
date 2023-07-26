@@ -78,10 +78,10 @@ addCourse(moreCourses){
 }
 }
 const student1 = new student('Ghazi',26, 11, [dancing])
-console.log(student1.getName());
-console.log(student1.getAge());
-student1.increaseAge();
-console.log(student1.getAge());
+console.log(student1.name());
+console.log(student1.age());
+student1.ageIncreasegeincrease();
+console.log(student1.age());
 console.log(student1.score);
 console.log(student1.courses);
 student1.addCourse("music");

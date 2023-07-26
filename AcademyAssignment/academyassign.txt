@@ -16,3 +16,5 @@ A callback is a function that is put into another function and called back from 
 setTimeout (firstAction(secondAction),5000) eg of a callback is setTimeout(firstAction,5000) and setTimeout(() => opening(superOpen),5000)
 
 
+https://www.figma.com/file/skZA19IVtvs6D1LfTxvzNn/Untitled?type=design&node-id=0%3A1&mode=design&t=DIJjt4Nh8afKLb3z-1
+
