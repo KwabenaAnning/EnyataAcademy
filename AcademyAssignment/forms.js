@@ -1,33 +1,45 @@
-// //  <form action="string">Ghazi</form>
-// // <form action="string">Anning</form>
-// // <form action="number">26</form>
-// // <form action="drop down">country</form>
-// // <form action="picture"><img src="" alt=""></form>
+class student{
+    constructor(firstName,lastName, age, country, picture){
+     this.firstName = firstName;
+     this.lastName = lastName;
+     this.age = age; 
+     this.country = country;
+     this.picture = picture;
+    }
+    name(){
+      return this.firstName
+    }
+    age(){
+     return this.age
+    }
+async checkForm() {
+    if (firstName === "fullName" || lastName ==="Name" || age === "something else" || country === "not selected" ) {
+        throw new Error("Please fill all fields")
+    };
 
-// let body = document.body
+};
+
+formSentence() {
+    return `My name is ${firstName} ${lastName}. I am from ${country}. I am ${age} years old.`;
+};
 
 
-// //creating elements
-// document.createElement
 
-// //set attributes
-// .setAttribute
+mainForm.addEventListener('submit', async function (event) {
+	const firstName = document.getElementById('firstName').value;
+	const lastName = document.querySelector('#lastName').value;
+	const age = document.querySelector('#age').value;
+	const country = document.querySelector('#country').value;
+	const picture = document.querySelector('#picture').value;
+	event.preventDefault();
+	const formClass = new student(firstName, lastName, age, country, picture);
+    mainForm = document.querySelector("inputs")
+	try {
+		await formClass.checkForm()
+		alert(formClass.formSentence)
+	} catch (error) {
+		alert(error.message)
+	}
+});
 
-// //adding text
-// .innerHTML
-
-// //styling
-// .style
-
-// //appending them
-// .appenchild
-
-function resolveAfter2Seconds() {
-    return new Promise(resolve => {
-      setTimeout(() => {
-        resolve('resolved');
-      }, 2000);
-    });
-  }
-
-  
+}
