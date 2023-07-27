@@ -1,3 +1,8 @@
+const firstName = "Ghazi";
+const lastName = "Anning";
+const age = 32;
+const country = "finland";
+
 class student{
     constructor(firstName,lastName, age, country, picture){
      this.firstName = firstName;
@@ -27,9 +32,9 @@ formSentence() {
 
 mainForm.addEventListener('submit', async function (event) {
 	const firstName = document.getElementById('firstName').value;
-	const lastName = document.querySelector('#lastName').value;
-	const age = document.querySelector('#age').value;
-	const country = document.querySelector('#country').value;
+	const lastName = document.querySelector('LastName').value;
+	const age = document.querySelector('age').value;
+	const country = document.querySelector('country').value;
 	const picture = document.querySelector('#picture').value;
 	event.preventDefault();
 	const formClass = new student(firstName, lastName, age, country, picture);

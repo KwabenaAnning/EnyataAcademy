@@ -1,25 +1,29 @@
-const arrayNumbers = [1,9,2,4,6,3];
+
 
 function ascending(arrays){
     arrayNumbers.sort(function(a,b)
     { return a - b});
         return arrays;
     };
-const ascending = ascending(arrayNumbers);
-console.log("Ascending order:", ascending);
-
-
 
 function descending(arrays){
-arrayNumbers.sort(function arrayNumbers(a,b)
-    {return b - a}); 
-    return arrays;
-};
-const descending = descending(arrayNumbers);
-console.log("Descending order:", descending);
+    arrayNumbers.sort(function arrayNumbers(a,b)
+        {return b - a}); 
+         return arrays;
+     };
+// If the result is negative, a is sorted before b.
+
+// If the result is positive, b is sorted before a
+
+    const arrayNumbers = [1,9,2,4,6,3];
+const ascendingorder = ascending(arrayNumbers);
+console.log("Ascending order:", arrayNumbers);
+
+const descendingorder = descending(arrayNumbers);
+console.log("Descending order:", arrayNumbers);
 
 
-for (var index=1; index <= 15; index++)
+for (var index=1; index <= 16; index++)
 {
     if (index % 15 == 0)
         console.log("FizzBuzz");
